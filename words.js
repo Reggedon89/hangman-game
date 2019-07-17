@@ -101,42 +101,6 @@ $(document).ready(() => {
     "may",
     "part"
   ];
-  var categories = [
-    [
-      "apple",
-      "peach",
-      "pear",
-      "blueberry",
-      "coconut",
-      "fig",
-      "pineapple",
-      "orange",
-      "banana",
-      "plum"
-    ],
-    [
-      "soccer",
-      "football",
-      "tennis",
-      "lacrosse",
-      "golf",
-      "basketball",
-      "badminton",
-      "bowling",
-      "ballet"
-    ],
-    [
-      "daisy",
-      "tulip",
-      "sunflower",
-      "daffodil",
-      "freesia",
-      "peonies",
-      "rose",
-      "hydrangea",
-      "lily"
-    ]
-  ];
 
   let filteredWord = commonWords.filter(word => {
     return word.length >= 3;
