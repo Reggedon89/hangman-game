@@ -208,7 +208,9 @@ $(document).ready(() => {
     if (remaining === 0) {
       $("#container").hide();
       $("button").prop("disabled", "true");
-      $(".category").text("Sorry you lost! The secret word was " + randomWord);
+      $(".category").text(
+        "Sorry your Dead! The secret word was " + randomWord + "!"
+      );
       $(".category").append(
         "<br><button enabled class='play-again'>Play again?</button>"
       );
